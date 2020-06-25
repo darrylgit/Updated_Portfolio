@@ -53,6 +53,9 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
+      display: inline-block;
+      position: relative;
+      overflow: hidden;
       width: 250px;
       height: 250px;
       background: url("../img/portrait.jpg");

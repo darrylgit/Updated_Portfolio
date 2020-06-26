@@ -53,12 +53,10 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      display: inline-block;
-      position: relative;
-      overflow: hidden;
       width: 250px;
       height: 250px;
       background: url("../img/portrait.jpg");
+      background-size: cover;
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -163,7 +161,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
